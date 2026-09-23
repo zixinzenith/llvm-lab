@@ -12,5 +12,9 @@ notes so far:
 - [day 2 - building the thing (pain)](notes/02-building-the-thing.md)
 - [day 3 - first look at IR](notes/03-first-look-at-ir.md)
 - [day 4 - clang -emit-llvm experiments](notes/04-emit-llvm-experiments.md)
+- [day 5 - writing my first pass (cmake hell)](notes/05-first-pass.md)
+- [day 6 - counting instructions](notes/06-counting-instructions.md)
+- [day 7 - analyses and caching](notes/07-analyses-and-caching.md)
+- [day 8 - lli and other random tools](notes/08-lli-and-other-tools.md)
 
 probably more later. or not. we'll see.
