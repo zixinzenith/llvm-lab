@@ -1,4 +1,4 @@
-# day 6 - counting instructions (a pass that does slightly more)
+# counting instructions (a pass that does slightly more)
 
 ok printing function names got old. next step: walk the instructions in each
 function and count them by opcode. this is the standard "walk a Function" loop
@@ -24,7 +24,7 @@ PreservedAnalyses run(Function &F, FunctionAnalysisManager &AM) {
 Function > BasicBlock > Instruction. a BasicBlock is a sequence of instructions
 with ONE entry (jump in only at the top) and ONE exit (must end in exactly one
 terminator: br, ret, switch, etc). the CFG's nodes are the blocks and the
-terminators are the edges. when i looked at day 4's loop IR again with this in
+terminators are the edges. when i looked at the loop in the emit-llvm notes IR again with this in
 my head it made a lot more sense.
 
 running it on my sum function before mem2reg gives stuff like:

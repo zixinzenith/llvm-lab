@@ -1,6 +1,6 @@
-# day 4 - clang -emit-llvm experiments
+# clang -emit-llvm experiments
 
-today i poked at how different c constructs show up in the IR. this is mostly
+how i poked at how different c constructs show up in the IR. this is mostly
 me annotating dumps for my own memory.
 
 ## a loop

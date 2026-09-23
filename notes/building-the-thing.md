@@ -1,4 +1,4 @@
-# day 2 - building the thing (pain)
+# building the thing (pain)
 
 so i tried building llvm from source. it went about as well as the internet
 promised.

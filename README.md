@@ -1,21 +1,26 @@
-# lllvm-lab
+# llvm-lab
 
 yes this repo used to be called "lllvm-lab" because i typed too fast when
 making it. renamed it eventually. rip.
 
-i'm learning LLVM. mostly taking notes so future me can remember what the hell i was doing.
-no guarantee anything here is correct, if you're reading this and i'm wrong somewhere,
-open an issue or something i guess.
+i'm learning LLVM. mostly taking notes so future me can remember what the hell
+i was doing. no guarantee anything here is correct, if you're reading this and
+i'm wrong somewhere, open an issue or something i guess.
 
-notes so far:
+notes, roughly in the order i wrote them:
 
-- [day 1 - what even is LLVM](notes/01-what-even-is-llvm.md)
-- [day 2 - building the thing (pain)](notes/02-building-the-thing.md)
-- [day 3 - first look at IR](notes/03-first-look-at-ir.md)
-- [day 4 - clang -emit-llvm experiments](notes/04-emit-llvm-experiments.md)
-- [day 5 - writing my first pass (cmake hell)](notes/05-first-pass.md)
-- [day 6 - counting instructions](notes/06-counting-instructions.md)
-- [day 7 - analyses and caching](notes/07-analyses-and-caching.md)
-- [day 8 - lli and other random tools](notes/08-lli-and-other-tools.md)
+- [what even is LLVM](notes/what-even-is-llvm.md)
+- [building the thing (pain)](notes/building-the-thing.md)
+- [first look at IR](notes/first-look-at-ir.md)
+- [clang -emit-llvm experiments](notes/emit-llvm-experiments.md)
+- [why is an empty main not empty](notes/why-is-empty-main-not-empty.md)
+- [pointers in IR are just values with types](notes/pointers-in-ir.md)
+- [godbolt is a playground and i'm late to it](notes/godbolt-is-a-playground.md)
+- [writing my first pass (cmake hell)](notes/first-pass.md)
+- [counting instructions](notes/counting-instructions.md)
+- [analyses and caching](notes/analyses-and-caching.md)
+- [lli and other random tools](notes/lli-and-other-tools.md)
+- [things i still don't get](notes/things-i-still-dont-get.md)
+- [resources that didn't make me feel stupid](notes/resources-that-didnt-make-me-feel-stupid.md)
 
 probably more later. or not. we'll see.

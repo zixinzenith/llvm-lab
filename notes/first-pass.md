@@ -1,6 +1,6 @@
-# day 5 - writing my first pass (cmake hell as promised)
+# writing my first pass (cmake hell as promised)
 
-ok so today was the "HelloWorld" pass from the WritingAnLLVMPass doc, except
+ok so this one is the "HelloWorld" pass from the WritingAnLLVMPass doc, except
 the doc version i found first was the OLD pass manager (registerPass,
 legacy::PassManager) and half the internet still shows that. the new one is the
 "new pass manager" (NPM) and it's completely different plumbing. lost like an

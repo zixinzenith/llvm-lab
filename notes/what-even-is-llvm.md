@@ -1,4 +1,4 @@
-# day 1 - what even is LLVM
+# what even is LLVM
 
 ok so before this week my entire mental model of compilers was:
 
@@ -10,7 +10,7 @@ turns out the ??? is actually a lot. i kept hearing people say "LLVM" like it wa
 compiler and also a backend and also a library?? so here's my attempt to untangle it
 before i start actually using it.
 
-## the big picture (as i understand it today, could be wrong)
+## the big picture (as i currently understand it, could be wrong)
 
 LLVM is not a compiler. it's a bunch of libraries + tools + an intermediate
 representation that compilers are built OUT of. clang is the c/c++ frontend, it

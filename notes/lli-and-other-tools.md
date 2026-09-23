@@ -1,6 +1,6 @@
-# day 8 - lli and other random tools i found
+# lli and other random tools i found
 
-no theme today, just poking at tools in the build's bin/ because there are
+no theme, just poking at tools in the build's bin/ because there are
 like a hundred of them and i only know 5.
 
 ## lli
@@ -57,5 +57,5 @@ one for my hello pass is on the list.
 
 biggest surprise: lli. smallest surprise: that the docs are a .rst file
 rendered in 2005 style. tomorrow maybe i finally look at the Kaleidoscope
-tutorial everyone keeps mentioning, or take a day off. hand hurts from all the
+tutorial everyone keeps mentioning, or take a break. hand hurts from all the
 cmake.

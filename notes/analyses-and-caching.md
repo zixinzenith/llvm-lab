@@ -1,4 +1,4 @@
-# day 7 - what the analysis manager actually does
+# what the analysis manager actually does
 
 so. the second argument to my run() function. turns out it's the interesting
 part.
@@ -41,11 +41,11 @@ headers dominate their whole loop body, which is why everyone cares: knowing
 something is true at a point inside a loop often reduces to checking the
 header, which dominates you.
 
-useful coincidences of the day:
+random useful facts i keep re-deriving:
 
 - the entry block dominates everything (trivially, every path starts there)
 - natural loops are basically "back-edge to a block that dominates the source
-  of the edge". i checked this against day 4's loop, the `for.cond` header does
+  of the edge". i checked this against the loop in the emit-llvm notes, the `for.cond` header does
   dominate `for.body`. ok. fine. it holds.
 
 the pass manager apparently reorders passes around these invalidation rules so

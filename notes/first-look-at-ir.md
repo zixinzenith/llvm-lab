@@ -1,4 +1,4 @@
-# day 3 - first look at IR
+# first look at IR
 
 ok THIS is the fun part. i wrote the world's most boring c program:
 
