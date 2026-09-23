@@ -1,6 +1,7 @@
 # lllvm-lab
 
-yes the repo name has 3 l's. i typed too fast when making it and now it's funny so it stays.
+yes this repo used to be called "lllvm-lab" because i typed too fast when
+making it. renamed it eventually. rip.
 
 i'm learning LLVM. mostly taking notes so future me can remember what the hell i was doing.
 no guarantee anything here is correct, if you're reading this and i'm wrong somewhere,
